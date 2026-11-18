@@ -1,18 +1,17 @@
-# The World — Tuesday, 17 November 2026
+# news-image-20261117
 
-Entry for make.fun bounty **news-image-20261117**: sum up 17 November 2026's
-world news in one image.
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/drop9490-ship-it/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/drop9490-ship-it/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
 
-The image is a newspaper front page drawn programmatically with PIL
-(`render.py`): masthead + the date printed large, one lead story (US and
-Iran exchange fire), seven numbered stories, and a source line. No AI photos
-of real events — typography only. 1024×1024 PNG, well under 1 MiB.
+A newspaper front page summarising Tuesday 17 November 2026's world news in one image.
 
-`main.py` (stdlib only, no network) copies `entry.png` to the output
-directory, so both graded runs write identical bytes.
+## Run it
 
-Stories (all verified as breaking on 17 Nov 2026, sources Reuters / BBC /
-CNN / AP): US–Iran strikes (Bahrain radar, Qeshm Island) · Kerch Bridge span
-collapses · Knesset elects Kahana speaker 66–52 · Trump in Manila, Xi–Trump–
-Putin summit set · An-12 crash in Siberia, 19 killed · Nvidia revenue
-$115.8B, up 103% · UK sanctions settlement firms · Dhoni retires from IPL.
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=9ncycshz&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
